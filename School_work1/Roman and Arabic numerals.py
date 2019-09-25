@@ -18,7 +18,7 @@ def convertnum(romnum):
 #%%
 def convertrom(num):
     y = ""
-    if(len(str(num)) == 2):
+    if(num >= 10):
         y += int(num/10)*"X"
     if(9 > num%10 >= 5):
         y += "V"
