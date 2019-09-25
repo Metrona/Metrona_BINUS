@@ -22,9 +22,9 @@ def convertrom(num):
         y += int(num/10)*"X"
     if(9 > num%10 >= 5):
         y += "V"
-    if("9" in str(num)):
+    if(num%10 == 9):
         y += "IX"
-    if("4" in str(num)):
+    if(num%10 == 4):
         y += "IV"
     if(num%5 != 0 and num%5 != 4):
         y += num%5*"I" 
