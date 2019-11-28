@@ -1,0 +1,9 @@
+A very simple game of breakout:
+Has a pause button (esc), q in pause is quit
+Ball start in middle with paddle, space to release (move paddle left to shoot ball left, right is default)
+Clearing all blocks recreates all blocks
+When balls hits block it breaks it and gives 100 points (increases by 100 after each full clear)
+Paddle and ball increase speed by 0.1 each full clear
+Space in game over to restart
+
+
